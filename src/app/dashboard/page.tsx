@@ -1,14 +1,9 @@
-import app from 'next/app'
 import React from 'react'
-
 
 const page = () => {
   return (
-    <>
-      <>Hello</>
-      
-    </>
-  );
+    <div>dashboard</div>
+  )
 }
 
 export default page
