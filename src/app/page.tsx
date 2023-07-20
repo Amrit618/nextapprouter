@@ -5,6 +5,7 @@ const HomePage: React.FC = () => {
     <div>
       <h1>Welcome to My Portfolio</h1>
       <p>Here is some information about me and my work.</p>
+      <h2> Below listed are some of my projects and their link</h2>
 
       <h2>About Me</h2>
       <p>
@@ -22,6 +23,7 @@ const HomePage: React.FC = () => {
         <li>Next.js</li>
         <li>TypeScript</li>
         <li>Responsive Web Design</li>
+        <li> Node.js</li>
       </ul>
 
       <h2>Projects</h2>
