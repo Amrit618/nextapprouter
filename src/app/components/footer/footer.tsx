@@ -1,27 +1,23 @@
-'use client'
-import React from 'react'
+'use client';
+import React from 'react';
 import styles from './footer.module.css';
-import Image from 'next/image'
+import Image from 'next/image';
 
-interface props{
-  src: 'string'
+interface FooterProps {
+  src: string;
 }
 
-
-
-const footer = () => {
+const Footer: React.FC<FooterProps> = ({ src }) => {
   return (
     <>
       <div className={styles.container}>
         @2023 Amrit Bastakoti. All rights reserved.
-        </div>
+      </div>
       <div>
-        <image src= '1.jpg' fill:boolean= {true} 
-        width={'20px'} 
-        alt= 'amrit'></image>
+        <Image src={src} fill={true} width={20} alt="amrit" />
       </div>
     </>
   );
-}
+};
 
-export default footer
+export default Footer;
