@@ -4,7 +4,10 @@ import styles from './page.module.css';
 const Loginpage = () => {
   return (
     <>
-      <div className={styles.container}>Loginpage</div>
+      <div className={styles.container}>Loginpage
+      <h1> hey this is a login page async function  (params:type) {
+        
+      }</h1></div>
     </>
   );
 };
