@@ -4,3 +4,10 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.styles{
+  width: 20px;
+  height: auto;
+  align-items: flex-end;
+  flex-grow: initial;
+}
