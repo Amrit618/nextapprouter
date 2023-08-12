@@ -11,3 +11,9 @@
   align-items: flex-end;
   flex-grow: initial;
 }
+
+.conatiner1{
+  background-attachment: fixed;
+  counter-reset:none;
+  nav-down: auto;
+}
