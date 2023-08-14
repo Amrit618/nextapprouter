@@ -2,6 +2,7 @@
 import React from 'react';
 import styles from './footer.module.css';
 import Image from 'next/image';
+import { imageConfigDefault } from 'next/dist/shared/lib/image-config';
 
 interface FooterProps {
   src: string;
@@ -14,7 +15,10 @@ const Footer: React.FC<FooterProps> = ({ src }) => {
         @2023 Amrit Bastakoti. All rights reserved.
       </div>
       <div>
-        <Image src={src} fill={true} width={20} alt="amrit" />
+        <Image src={src} 
+        fill={true} 
+        width={20} 
+        alt="amrit" />
       </div>
     </>
   );
