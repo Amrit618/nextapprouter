@@ -22,9 +22,10 @@ const Footer: React.FC<FooterProps> = ({ src }) => {
         @2023 Amrit Bastakoti. All rights reserved.
       </div>
       <div>
-        <Image src={src} 
-        fill={true} 
-        width={20} 
+        <Image src= '/1.png' 
+        height={10} 
+        width={20}
+        width={10} 
         alt="amrit" />
       </div>
     </>
