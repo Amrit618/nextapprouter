@@ -8,11 +8,11 @@ interface FooterProps {
   src: string;
 }
 
- interface images{
-name: string;
-surname: string;
-phonenumber: number;
-email: string;
+interface images {
+  name: string;
+  surname: string;
+  phonenumber: number;
+  email: string;
 }
 
 const Footer: React.FC<FooterProps> = ({ src }) => {
@@ -22,11 +22,7 @@ const Footer: React.FC<FooterProps> = ({ src }) => {
         @2023 Amrit Bastakoti. All rights reserved.
       </div>
       <div>
-        <Image src= '/1.png' 
-        height={10} 
-        width={20}
-        width={10} 
-        alt="amrit" />
+        <Image src="/1.png" height={10} width={20} alt="amrit" />
       </div>
     </>
   );
