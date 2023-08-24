@@ -1,37 +1,37 @@
-.container{
+.container {
   height: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.styles{
+.styles {
   width: 20px;
   height: auto;
   align-items: flex-end;
   flex-grow: initial;
 }
 
-.conatiner1{
+.conatiner1 {
   background-attachment: fixed;
-  counter-reset:none;
+  counter-reset: none;
   nav-down: auto;
 }
 
-.conatiner1{
+.conatiner1 {
   background-attachment: fixed;
-  counter-reset:none;
+  counter-reset: none;
   nav-down: auto;
 }
 
-.conatiner1{
+.conatiner1 {
   background-attachment: fixed;
-  counter-reset:none;
+  counter-reset: none;
   nav-down: auto;
 }
 
-.conatiner1{
+.conatiner1 {
   background-attachment: fixed;
-  counter-reset:none;
+  counter-reset: none;
   nav-down: auto;
 }
